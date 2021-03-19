@@ -2093,17 +2093,21 @@ input, select, textarea {
 		}
 
 	#header-wrapper {
-		position: relative;
+		/*position: relative;*/
 		padding: 4em 0 2em 0;
-		background-image: url("images/header.svg");
-		background-image: url("images/overlay.png"), url("images/header.svg"), -moz-linear-gradient(75deg, #af0622 15%, #F2B69D 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), -webkit-linear-gradient(75deg, #af0622 15%, #F2B69D 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), -ms-linear-gradient(75deg, #af0622 15%, #F2B69D 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), linear-gradient(75deg, #af0622 15%, #F2B69D 55%);
+		background-image: url("images/cta01.jpg");
+		background-image: url("images/overlay.png"), url("images/cta01.jpg"), -moz-linear-gradient(75deg, #af0622 15%, #F2B69D 55%);
+		background-image: url("images/overlay.png"), url("images/cta01.jpg"), -webkit-linear-gradient(75deg, #af0622 15%, #F2B69D 55%);
+		background-image: url("images/overlay.png"), url("images/cta01.jpg"), -ms-linear-gradient(75deg, #af0622 15%, #F2B69D 55%);
+		background-image: url("images/overlay.png"), url("images/cta01.jpg"), linear-gradient(75deg, #af0622 15%, #F2B69D 55%);
 		background-color: #f08c89;
-		background-size: 100% 620%;
-		background-size: 128px 128px, 100% 620%, auto;
-		background-repeat: repeat, no-repeat, no-repeat;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover !important;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		-ms-background-size: cover;
 	}
 
 	.homepage #header-wrapper {
