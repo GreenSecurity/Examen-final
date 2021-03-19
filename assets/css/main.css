@@ -2093,21 +2093,13 @@ input, select, textarea {
 		}
 
 	#header-wrapper {
-		/*position: relative;*/
 		padding: 4em 0 2em 0;
-		background-image: url("images/vias_del_tren.jpg");
-		background-image: url("images/overlay.png"), url("images/vias_del_tren.jpg"), -moz-linear-gradient(75deg, #af0622 15%, #F2B69D 55%);
-		background-image: url("images/overlay.png"), url("images/vias_del_tren.jpg"), -webkit-linear-gradient(75deg, #af0622 15%, #F2B69D 55%);
-		background-image: url("images/overlay.png"), url("images/vias_del_tren.jpg"), -ms-linear-gradient(75deg, #af0622 15%, #F2B69D 55%);
-		background-image: url("images/overlay.png"), url("images/vias_del_tren.jpg"), linear-gradient(75deg, #af0622 15%, #F2B69D 55%);
+		background-image: url("images/patinacoconcasco.jpg");
 		background-color: #f08c89;
 		background-repeat: no-repeat;
 		background-position: center center;
 		background-size: cover !important;
-		-moz-background-size: cover;
-		-webkit-background-size: cover;
-		-o-background-size: cover;
-		-ms-background-size: cover;
+
 	}
 
 	.homepage #header-wrapper {
@@ -3071,4 +3063,7 @@ input, select, textarea {
 				margin-bottom: 1em;
 			}
 
+	}
+	.headerlink {
+		color: black;
 	}
