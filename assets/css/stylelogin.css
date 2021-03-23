@@ -1,9 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
 .login-page {
+  
   width: 360px;
   padding: 8% 0 0;
   margin: auto;
+ 
+  
+ 
 }
 .form {
   position: relative;
@@ -89,12 +93,15 @@
   color: #EF3B3A;
 }
 body {
-  background-image: url("images/imagen.png");
-  background-image: -webkit-linear-gradient(right, #f1b458ce, #F2B69D);
-  background-image: -moz-linear-gradient(right, #f1b458ce, #F2B69D);
-  background-image: -o-linear-gradient(right, #f1b458ce, #F2B69D);
-  background-image: linear-gradient(to left, #f1b458ce, #F2B69D);
-  font-family: "Roboto", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;      
+  position: relative;
+  padding: 4em 0 2em 0;
+  background-image: url("images/header.svg");
+  background-image: url("images/overlay.png"), url("images/header.svg"), -moz-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
+  background-image: url("images/overlay.png"), url("images/header.svg"), -webkit-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
+  background-image: url("images/overlay.png"), url("images/header.svg"), -ms-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
+  background-image: url("images/overlay.png"), url("images/header.svg"), linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
+  background-color: #f08c89;
+  background-size: 100% 620%;
+  background-size: 128px 128px, 100% 620%, auto;
+  background-repeat: repeat, no-repeat, no-repeat;     
 }
