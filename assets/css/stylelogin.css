@@ -105,3 +105,9 @@ body {
   background-size: 128px 128px, 100% 620%, auto;
   background-repeat: repeat, no-repeat, no-repeat;     
 }
+#link_web{
+  color: #FFFFFF
+}
+#link_web:visited{
+  color: #FFFFFF
+}
