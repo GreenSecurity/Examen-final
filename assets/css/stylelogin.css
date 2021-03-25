@@ -34,7 +34,7 @@
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   outline: 0;
-  background: #4CAF50;
+  background: #ff7500;
   width: 100%;
   border: 0;
   padding: 15px;
@@ -45,7 +45,7 @@
   cursor: pointer;
 }
 .form button:hover,.form button:active,.form button:focus {
-  background: #43A047;
+  background: #582900;
 }
 .form .message {
   margin: 15px 0 0;
@@ -53,7 +53,7 @@
   font-size: 12px;
 }
 .form .message a {
-  color: #4CAF50;
+  color: #ff7500;
   text-decoration: none;
 }
 .form .register-form {
@@ -96,10 +96,10 @@ body {
   position: relative;
   padding: 4em 0 2em 0;
   background-image: url("images/header.svg");
-  background-image: url("images/overlay.png"), url("images/header.svg"), -moz-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-  background-image: url("images/overlay.png"), url("images/header.svg"), -webkit-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-  background-image: url("images/overlay.png"), url("images/header.svg"), -ms-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-  background-image: url("images/overlay.png"), url("images/header.svg"), linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
+  background-image: url("images/overlay.png"),  -moz-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
+  background-image: url("images/overlay.png"),  -webkit-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
+  background-image: url("images/overlay.png"),  -ms-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
+  background-image: url("images/overlay.png"),  linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
   background-color: #f08c89;
   background-size: 100% 620%;
   background-size: 128px 128px, 100% 620%, auto;
