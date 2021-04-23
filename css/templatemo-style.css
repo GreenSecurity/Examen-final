@@ -19,13 +19,13 @@ body {
 }
 
 a {
-	color: #9F6;
+	color: #bc13fe;
     text-decoration: none;
     transition: all 0.3s ease;
 }
 
 a:hover {
-	color: #3CF;
+	color: #bc13fe;
 }
 
 p {
@@ -144,13 +144,13 @@ h2 {
 
 .navbar .navbar-nav .nav-item.selected .nav-link,
 .navbar .navbar-nav .nav-item .nav-link:hover {
-    color: #99FF66;
-    border-bottom: 1px solid #99FF66;
+    color: #bc13fe;
+    border-bottom: 1px solid #014182;
 }
 
 .cd-slider-nav li.selected a+.circle,
 .navbar .navbar-nav .nav-item .nav-link:hover+.circle {
-    background-color: #99FF66;
+    background-color: #23846e;
 }
 
 .navbar-toggler-icon {
@@ -521,7 +521,7 @@ figure.effect-julia:hover p {
 
 @media (max-width: 1024px) {
     .navbar .navbar-nav .nav-item .nav-link {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 }
 
@@ -611,6 +611,62 @@ figure.effect-julia:hover p {
         width: 48%;
     }
 }
+
+/* Cooming soon */
+
+/* Set height to 100% for body and html to enable the background image to cover the whole page: */
+body, html {
+    height: 100%
+  }
+  
+  .bgimg {
+    /* Background image */
+    background-image: url('/w3images/forestbridge.jpg');
+    /* Full-screen */
+    height: 100%;
+    /* Center the background image */
+    background-position: center;
+    /* Scale and zoom in the image */
+    background-size: cover;
+    /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+    position: relative;
+    /* Add a white text color to all elements inside the .bgimg container */
+    color: white;
+    /* Add a font */
+    font-family: 'Press Start 2P', cursive;
+    /* Set the font-size to 25 pixels */
+    font-size: 25px;
+  }
+  
+  /* Position text in the top-left corner */
+  .topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+  }
+  
+  /* Position text in the bottom-left corner */
+  .bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+  }
+  
+  /* Position text in the middle */
+  .middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* Style the <hr> element */
+  hr {
+    margin: auto;
+    width: 40%;
+  }
+
 
 /* Preloader 
 	https://ihatetomatoes.net/create-custom-preloading-screen/
