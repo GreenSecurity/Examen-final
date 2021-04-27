@@ -427,7 +427,7 @@ figure.effect-julia:hover p {
 
 .gallery-slider .slick-dots li.slick-active, 
 .gallery-slider .slick-dots li:hover {
-    background-color: #3CCDFF;
+    background-color: #23846e;
 }
 
 .gallery-slider .slick-dots li {
@@ -667,7 +667,55 @@ body, html {
     width: 40%;
   }
 
+ 
 
+
+  .button {
+      outline: 0;
+      position: relative;
+      display: inline-block;
+      padding: 10px 40px;
+      font-size: 20px;
+      overflow: hidden;
+      cursor: pointer;
+      border: 1px solid #4b00ff;
+      background: #4b00ff;
+      color: #fff;
+      font-weight: 500;
+      transition: box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  }
+  .button:hover {
+      background-color: #4b00ff;
+      color: #fff;
+      box-shadow: 0 0 5px #4b00ff,
+                  0 0 20px rgb(75 0 255 / 0.8),
+                  0 0 35px rgb(75 0 255 / 0.7),
+                  0 0 50px rgb(75 0 255 / 0.6);
+      border-color: #fff;
+  }
+  /* .button {
+      outline: 0;
+      position: relative;
+      display: inline-block;
+      padding: 10px 40px;
+      font-size: 20px;
+      overflow: hidden;
+      cursor: pointer;
+      border: 2px solid #bc13fe;
+      background: #FFFF00;
+      color: #000;
+      font-weight: 600;
+      transition: box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  }
+  .button:hover {
+      background-color: #bc13fe;
+      color: #000;
+      box-shadow: 0 0 5px #bc13fe,
+                  0 0 20px rgb(255 255 0 / 0.8),
+                  0 0 35px rgb(255 255 0 / 0.7),
+                  0 0 50px rgb(255 255 0 / 0.6);
+      border-color: #fff;
+  } */
 /* Preloader 
 	https://ihatetomatoes.net/create-custom-preloading-screen/
 */
