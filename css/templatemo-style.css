@@ -113,7 +113,7 @@ h2 {
 }
 
 .navbar .navbar-nav .nav-item .nav-link {
-    font-size: 25px;
+    font-size: 1.rem;
     padding: 15px 65px;
     border-bottom: 1px solid white;
 }
@@ -693,29 +693,21 @@ body, html {
                   0 0 50px rgb(75 0 255 / 0.6);
       border-color: #fff;
   }
-  /* .button {
-      outline: 0;
-      position: relative;
-      display: inline-block;
-      padding: 10px 40px;
-      font-size: 20px;
-      overflow: hidden;
-      cursor: pointer;
-      border: 2px solid #bc13fe;
-      background: #FFFF00;
-      color: #000;
-      font-weight: 600;
-      transition: box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out;
-  }
-  .button:hover {
-      background-color: #bc13fe;
-      color: #000;
-      box-shadow: 0 0 5px #bc13fe,
-                  0 0 20px rgb(255 255 0 / 0.8),
-                  0 0 35px rgb(255 255 0 / 0.7),
-                  0 0 50px rgb(255 255 0 / 0.6);
-      border-color: #fff;
-  } */
+    #inferior{
+    color: #FFF;
+    position:absolute; /*El div será ubicado con relación a la pantalla*/
+    left:0px; /*A la derecha deje un espacio de 0px*/
+    right: 0px; /*A la izquierda deje un espacio de 0px*/
+    bottom:-100px; /*Abajo deje un espacio de 0px*/
+    height:50px; /*alto del div*/
+    z-index:0;
+    }
+
+    #yoshi{
+    height: 10px;
+    width: 10px;
+}
+
 /* Preloader 
 	https://ihatetomatoes.net/create-custom-preloading-screen/
 */
